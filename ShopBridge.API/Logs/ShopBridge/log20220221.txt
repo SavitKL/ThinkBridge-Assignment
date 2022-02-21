@@ -1,0 +1,279 @@
+2022-02-21 16:44:53.734 +05:30 [ERR] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+2022-02-21 16:44:56.054 +05:30 [ERR] The system cannot find the file specified.
+2022-02-21 16:44:56.068 +05:30 [DBG] Hosting starting
+2022-02-21 16:45:00.686 +05:30 [DBG] Loaded hosting startup assembly ShopBridge.API
+2022-02-21 16:45:00.769 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-21 16:45:00.770 +05:30 [INF] Hosting environment: Development
+2022-02-21 16:45:00.770 +05:30 [INF] Content root path: C:\Users\Neo\Desktop\ShopBridge-main\ShopBridge-main\source\repos\ShopBridge\ShopBridge.Api
+2022-02-21 16:45:00.770 +05:30 [DBG] Hosting started
+2022-02-21 16:45:01.631 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger  
+2022-02-21 16:45:01.655 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-21 16:45:02.272 +05:30 [INF] Request finished in 646.5112ms 301 
+2022-02-21 16:45:02.280 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/index.html  
+2022-02-21 16:45:03.037 +05:30 [INF] Request finished in 756.2759ms 200 text/html;charset=utf-8
+2022-02-21 16:45:03.087 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui.css  
+2022-02-21 16:45:03.092 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui-standalone-preset.js  
+2022-02-21 16:45:03.092 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui-bundle.js  
+2022-02-21 16:45:03.436 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-02-21 16:45:03.442 +05:30 [INF] Request finished in 356.6358ms 200 text/css
+2022-02-21 16:45:03.443 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-02-21 16:45:03.444 +05:30 [INF] Request finished in 356.6301ms 200 application/javascript
+2022-02-21 16:45:03.655 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-02-21 16:45:03.657 +05:30 [INF] Request finished in 564.24ms 200 application/javascript
+2022-02-21 16:45:03.963 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/V1/swagger.json  
+2022-02-21 16:45:04.312 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui-bundle.js.map  
+2022-02-21 16:45:04.327 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui-standalone-preset.js.map  
+2022-02-21 16:45:04.555 +05:30 [DBG] The request path /swagger-ui-bundle.js.map does not match an existing file
+2022-02-21 16:45:04.555 +05:30 [DBG] The request path /swagger-ui-standalone-preset.js.map does not match an existing file
+2022-02-21 16:45:04.571 +05:30 [WRN] Failed to determine the https port for redirect.
+2022-02-21 16:45:04.808 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js.map'
+2022-02-21 16:45:04.808 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js.map'
+2022-02-21 16:45:04.808 +05:30 [DBG] Request did not match any endpoints
+2022-02-21 16:45:04.808 +05:30 [DBG] Request did not match any endpoints
+2022-02-21 16:45:04.867 +05:30 [INF] Request finished in 905.2962ms 200 application/json;charset=utf-8
+2022-02-21 16:45:04.880 +05:30 [INF] Request finished in 568.3349ms 404 
+2022-02-21 16:45:04.880 +05:30 [INF] Request finished in 552.6555ms 404 
+2022-02-21 16:49:29.274 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/Items/kj  
+2022-02-21 16:49:29.279 +05:30 [DBG] The request path  does not match the path filter
+2022-02-21 16:49:29.285 +05:30 [DBG] 1 candidate(s) found for the request path '/Items/kj'
+2022-02-21 16:49:29.292 +05:30 [DBG] Endpoint 'ShopBridge.Controllers.ItemsController.GetAsync (ShopBridge.API)' with route pattern 'Items/{name}' is valid for the request path '/Items/kj'
+2022-02-21 16:49:29.293 +05:30 [DBG] Request matched endpoint 'ShopBridge.Controllers.ItemsController.GetAsync (ShopBridge.API)'
+2022-02-21 16:49:29.374 +05:30 [INF] Executing endpoint 'ShopBridge.Controllers.ItemsController.GetAsync (ShopBridge.API)'
+2022-02-21 16:49:29.956 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2022-02-21 16:49:30.373 +05:30 [INF] Route matched with {action = "Get", controller = "Items"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ShopBridge.Models.ItemModel]] GetAsync(System.String) on controller ShopBridge.Controllers.ItemsController (ShopBridge.API).
+2022-02-21 16:49:30.374 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-02-21 16:49:30.374 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-02-21 16:49:30.374 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-02-21 16:49:30.375 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-02-21 16:49:30.375 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2022-02-21 16:49:30.402 +05:30 [DBG] Executing controller factory for controller ShopBridge.Controllers.ItemsController (ShopBridge.API)
+2022-02-21 16:49:30.710 +05:30 [DBG] Executed controller factory for controller ShopBridge.Controllers.ItemsController (ShopBridge.API)
+2022-02-21 16:49:30.975 +05:30 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2022-02-21 16:49:30.977 +05:30 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name 'name' in request data ...
+2022-02-21 16:49:30.978 +05:30 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2022-02-21 16:49:30.978 +05:30 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2022-02-21 16:49:30.978 +05:30 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2022-02-21 16:49:30.981 +05:30 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2022-02-21 16:49:54.522 +05:30 [ERR] Error fetching item information: Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): The system cannot find the file specified.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at ShopBridge.Data.Repository.ItemRepository.GetItemAsync(String name) in C:\Users\Neo\Desktop\ShopBridge-main\ShopBridge-main\source\repos\ShopBridge\ShopBridge.Api.Dal\Repository\ItemRepository.cs:line 37
+   at ShopBridge.Controllers.ItemsController.GetAsync(String name) in C:\Users\Neo\Desktop\ShopBridge-main\ShopBridge-main\source\repos\ShopBridge\ShopBridge.Api\Controllers\ItemsController.cs:line 34
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+2022-02-21 16:49:54.546 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-02-21 16:49:54.549 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]' and explicitly specified content types '["application/json"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2022-02-21 16:49:54.549 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-02-21 16:49:54.549 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2022-02-21 16:49:54.613 +05:30 [INF] Executed action ShopBridge.Controllers.ItemsController.GetAsync (ShopBridge.API) in 24233.1295ms
+2022-02-21 16:49:54.627 +05:30 [INF] Executed endpoint 'ShopBridge.Controllers.ItemsController.GetAsync (ShopBridge.API)'
+2022-02-21 16:49:54.667 +05:30 [INF] Request finished in 25394.7552ms 500 application/json; charset=utf-8
+2022-02-21 16:50:08.178 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:64758/Items application/json 98
+2022-02-21 16:50:08.179 +05:30 [DBG] POST requests are not supported
+2022-02-21 16:50:08.179 +05:30 [DBG] 1 candidate(s) found for the request path '/Items'
+2022-02-21 16:50:08.180 +05:30 [DBG] Endpoint 'ShopBridge.Controllers.ItemsController.PostAsync (ShopBridge.API)' with route pattern 'Items' is valid for the request path '/Items'
+2022-02-21 16:50:08.180 +05:30 [DBG] Request matched endpoint 'ShopBridge.Controllers.ItemsController.PostAsync (ShopBridge.API)'
+2022-02-21 16:50:08.180 +05:30 [INF] Executing endpoint 'ShopBridge.Controllers.ItemsController.PostAsync (ShopBridge.API)'
+2022-02-21 16:50:08.200 +05:30 [INF] Route matched with {action = "Post", controller = "Items"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostAsync(ShopBridge.Models.ItemModel) on controller ShopBridge.Controllers.ItemsController (ShopBridge.API).
+2022-02-21 16:50:08.200 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-02-21 16:50:08.200 +05:30 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ConsumesAttribute"]
+2022-02-21 16:50:08.201 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-02-21 16:50:08.201 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-02-21 16:50:08.201 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2022-02-21 16:50:08.201 +05:30 [DBG] Executing controller factory for controller ShopBridge.Controllers.ItemsController (ShopBridge.API)
+2022-02-21 16:50:08.208 +05:30 [DBG] Executed controller factory for controller ShopBridge.Controllers.ItemsController (ShopBridge.API)
+2022-02-21 16:50:08.208 +05:30 [DBG] Attempting to bind parameter 'item' of type 'ShopBridge.Models.ItemModel' ...
+2022-02-21 16:50:08.218 +05:30 [DBG] Attempting to bind parameter 'item' of type 'ShopBridge.Models.ItemModel' using the name '' in request data ...
+2022-02-21 16:50:08.219 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-02-21 16:50:08.279 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'ShopBridge.Models.ItemModel'
+2022-02-21 16:50:08.279 +05:30 [DBG] Done attempting to bind parameter 'item' of type 'ShopBridge.Models.ItemModel'.
+2022-02-21 16:50:08.279 +05:30 [DBG] Done attempting to bind parameter 'item' of type 'ShopBridge.Models.ItemModel'.
+2022-02-21 16:50:08.279 +05:30 [DBG] Attempting to validate the bound parameter 'item' of type 'ShopBridge.Models.ItemModel' ...
+2022-02-21 16:50:08.400 +05:30 [DBG] Done attempting to validate the bound parameter 'item' of type 'ShopBridge.Models.ItemModel'.
+2022-02-21 16:50:27.423 +05:30 [ERR] Error creating item: Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): The system cannot find the file specified.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at ShopBridge.Controllers.ItemsController.PostAsync(ItemModel item) in C:\Users\Neo\Desktop\ShopBridge-main\ShopBridge-main\source\repos\ShopBridge\ShopBridge.Api\Controllers\ItemsController.cs:line 86
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+2022-02-21 16:50:27.426 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-02-21 16:50:27.427 +05:30 [DBG] No information found on request to perform content negotiation.
+2022-02-21 16:50:27.427 +05:30 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/json"]'.
+2022-02-21 16:50:27.428 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-02-21 16:50:27.428 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2022-02-21 16:50:27.429 +05:30 [INF] Executed action ShopBridge.Controllers.ItemsController.PostAsync (ShopBridge.API) in 19228.3512ms
+2022-02-21 16:50:27.430 +05:30 [INF] Executed endpoint 'ShopBridge.Controllers.ItemsController.PostAsync (ShopBridge.API)'
+2022-02-21 16:50:27.430 +05:30 [INF] Request finished in 19253.3316ms 500 application/json; charset=utf-8
+2022-02-21 17:10:41.798 +05:30 [ERR] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+2022-02-21 17:10:41.882 +05:30 [ERR] The system cannot find the file specified.
+2022-02-21 17:10:41.884 +05:30 [DBG] Hosting starting
+2022-02-21 17:10:42.372 +05:30 [DBG] Loaded hosting startup assembly ShopBridge.API
+2022-02-21 17:10:42.391 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-21 17:10:42.391 +05:30 [INF] Hosting environment: Development
+2022-02-21 17:10:42.391 +05:30 [INF] Content root path: C:\Users\Neo\Desktop\ShopBridge-main\ShopBridge-main\source\repos\ShopBridge\ShopBridge.Api
+2022-02-21 17:10:42.392 +05:30 [DBG] Hosting started
+2022-02-21 17:10:42.418 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger  
+2022-02-21 17:10:42.422 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-21 17:10:42.492 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/index.html  
+2022-02-21 17:10:42.492 +05:30 [INF] Request finished in 73.1863ms 301 
+2022-02-21 17:10:42.539 +05:30 [INF] Request finished in 47.1415ms 200 text/html;charset=utf-8
+2022-02-21 17:10:42.555 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui.css  
+2022-02-21 17:10:42.555 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui-bundle.js  
+2022-02-21 17:10:42.556 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui-standalone-preset.js  
+2022-02-21 17:10:42.607 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-02-21 17:10:42.609 +05:30 [INF] Request finished in 53.7198ms 200 text/css
+2022-02-21 17:10:42.615 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-02-21 17:10:42.616 +05:30 [INF] Request finished in 60.0856ms 200 application/javascript
+2022-02-21 17:10:42.673 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-02-21 17:10:42.673 +05:30 [INF] Request finished in 117.7714ms 200 application/javascript
+2022-02-21 17:10:42.842 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui-bundle.js.map  
+2022-02-21 17:10:42.848 +05:30 [DBG] The request path /swagger-ui-bundle.js.map does not match an existing file
+2022-02-21 17:10:42.848 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui-standalone-preset.js.map  
+2022-02-21 17:10:42.849 +05:30 [DBG] The request path /swagger-ui-standalone-preset.js.map does not match an existing file
+2022-02-21 17:10:42.850 +05:30 [WRN] Failed to determine the https port for redirect.
+2022-02-21 17:10:42.874 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/V1/swagger.json  
+2022-02-21 17:10:42.881 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js.map'
+2022-02-21 17:10:42.881 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js.map'
+2022-02-21 17:10:42.881 +05:30 [DBG] Request did not match any endpoints
+2022-02-21 17:10:42.881 +05:30 [DBG] Request did not match any endpoints
+2022-02-21 17:10:42.884 +05:30 [INF] Request finished in 42.5967ms 404 
+2022-02-21 17:10:42.884 +05:30 [INF] Request finished in 36.4584ms 404 
+2022-02-21 17:10:43.201 +05:30 [INF] Request finished in 327.2304ms 200 application/json;charset=utf-8
+2022-02-21 17:24:40.149 +05:30 [ERR] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+2022-02-21 17:24:40.226 +05:30 [ERR] The system cannot find the file specified.
+2022-02-21 17:24:40.228 +05:30 [DBG] Hosting starting
+2022-02-21 17:24:40.469 +05:30 [DBG] Loaded hosting startup assembly ShopBridge.API
+2022-02-21 17:24:40.478 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-21 17:24:40.479 +05:30 [INF] Hosting environment: Development
+2022-02-21 17:24:40.479 +05:30 [INF] Content root path: C:\Users\Neo\Desktop\ShopBridge-main\ShopBridge-main\source\repos\ShopBridge\ShopBridge.Api
+2022-02-21 17:24:40.479 +05:30 [DBG] Hosting started
+2022-02-21 17:24:40.513 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger  
+2022-02-21 17:24:40.517 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-21 17:24:40.590 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/index.html  
+2022-02-21 17:24:40.614 +05:30 [INF] Request finished in 80.5358ms 301 
+2022-02-21 17:24:40.651 +05:30 [INF] Request finished in 61.2199ms 200 text/html;charset=utf-8
+2022-02-21 17:24:40.666 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui-bundle.js  
+2022-02-21 17:24:40.666 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui.css  
+2022-02-21 17:24:40.667 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui-standalone-preset.js  
+2022-02-21 17:24:40.727 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-02-21 17:24:40.727 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-02-21 17:24:40.728 +05:30 [INF] Request finished in 60.8768ms 200 application/javascript
+2022-02-21 17:24:40.728 +05:30 [INF] Request finished in 62.2918ms 200 text/css
+2022-02-21 17:24:40.743 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-02-21 17:24:40.743 +05:30 [INF] Request finished in 77.4624ms 200 application/javascript
+2022-02-21 17:24:40.942 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui-bundle.js.map  
+2022-02-21 17:24:40.946 +05:30 [DBG] The request path /swagger-ui-bundle.js.map does not match an existing file
+2022-02-21 17:24:40.948 +05:30 [WRN] Failed to determine the https port for redirect.
+2022-02-21 17:24:40.956 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui-standalone-preset.js.map  
+2022-02-21 17:24:40.956 +05:30 [DBG] The request path /swagger-ui-standalone-preset.js.map does not match an existing file
+2022-02-21 17:24:40.984 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js.map'
+2022-02-21 17:24:40.984 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js.map'
+2022-02-21 17:24:40.984 +05:30 [DBG] Request did not match any endpoints
+2022-02-21 17:24:40.984 +05:30 [DBG] Request did not match any endpoints
+2022-02-21 17:24:40.987 +05:30 [INF] Request finished in 45.0517ms 404 
+2022-02-21 17:24:40.987 +05:30 [INF] Request finished in 30.5421ms 404 
+2022-02-21 17:24:40.992 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/V1/swagger.json  
+2022-02-21 17:24:41.110 +05:30 [INF] Request finished in 118.0794ms 200 application/json;charset=utf-8
+2022-02-21 17:38:15.638 +05:30 [ERR] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+2022-02-21 17:38:16.960 +05:30 [ERR] The system cannot find the file specified.
+2022-02-21 17:38:16.964 +05:30 [DBG] Hosting starting
+2022-02-21 17:38:19.879 +05:30 [DBG] Loaded hosting startup assembly ShopBridge.API
+2022-02-21 17:38:19.881 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-21 17:38:19.881 +05:30 [INF] Hosting environment: Development
+2022-02-21 17:38:19.881 +05:30 [INF] Content root path: C:\Users\Neo\Desktop\ShopBridge-main\ShopBridge-main\source\repos\ShopBridge\ShopBridge.Api
+2022-02-21 17:38:19.881 +05:30 [DBG] Hosting started
+2022-02-21 17:38:20.394 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger - -
+2022-02-21 17:38:20.491 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-21 17:38:20.672 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/index.html - -
+2022-02-21 17:38:20.736 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:64758/swagger - - - 301 - - 351.4766ms
+2022-02-21 17:38:20.906 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui.css - -
+2022-02-21 17:38:20.910 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui-standalone-preset.js - -
+2022-02-21 17:38:20.910 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui-bundle.js - -
+2022-02-21 17:38:20.982 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:64758/swagger/index.html - - - 200 - text/html;charset=utf-8 310.4743ms
+2022-02-21 17:38:21.056 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-02-21 17:38:21.056 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-02-21 17:38:21.056 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-02-21 17:38:21.059 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui.css - - - 200 143410 text/css 152.4867ms
+2022-02-21 17:38:21.067 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui-standalone-preset.js - - - 200 336841 application/javascript 157.3818ms
+2022-02-21 17:38:21.082 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui-bundle.js - - - 200 1097461 application/javascript 172.3674ms
+2022-02-21 17:38:21.255 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui-bundle.js.map - -
+2022-02-21 17:38:21.258 +05:30 [DBG] The request path /swagger-ui-bundle.js.map does not match an existing file
+2022-02-21 17:38:21.260 +05:30 [WRN] Failed to determine the https port for redirect.
+2022-02-21 17:38:21.271 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui-standalone-preset.js.map - -
+2022-02-21 17:38:21.272 +05:30 [DBG] The request path /swagger-ui-standalone-preset.js.map does not match an existing file
+2022-02-21 17:38:21.302 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/V1/swagger.json - -
+2022-02-21 17:38:21.371 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js.map'
+2022-02-21 17:38:21.371 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js.map'
+2022-02-21 17:38:21.372 +05:30 [DBG] Request did not match any endpoints
+2022-02-21 17:38:21.372 +05:30 [DBG] Request did not match any endpoints
+2022-02-21 17:38:21.375 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 103.3641ms
+2022-02-21 17:38:21.375 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui-bundle.js.map - - - 404 - - 120.1313ms
+2022-02-21 17:38:21.496 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:64758/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 194.3886ms
+2022-02-21 17:48:46.275 +05:30 [ERR] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+2022-02-21 17:48:46.327 +05:30 [ERR] The system cannot find the file specified.
+2022-02-21 17:48:46.329 +05:30 [DBG] Hosting starting
+2022-02-21 17:48:46.521 +05:30 [DBG] Loaded hosting startup assembly ShopBridge.API
+2022-02-21 17:48:46.530 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-21 17:48:46.531 +05:30 [INF] Hosting environment: Development
+2022-02-21 17:48:46.531 +05:30 [INF] Content root path: C:\Users\Neo\Desktop\ShopBridge-main\ShopBridge-main\source\repos\ShopBridge\ShopBridge.Api
+2022-02-21 17:48:46.531 +05:30 [DBG] Hosting started
+2022-02-21 17:48:46.566 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger - -
+2022-02-21 17:48:46.570 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-21 17:48:46.615 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/index.html - -
+2022-02-21 17:48:46.624 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:64758/swagger - - - 301 - - 60.5901ms
+2022-02-21 17:48:46.708 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:64758/swagger/index.html - - - 200 - text/html;charset=utf-8 95.8437ms
+2022-02-21 17:48:46.725 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui.css - -
+2022-02-21 17:48:46.726 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui-standalone-preset.js - -
+2022-02-21 17:48:46.726 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui-bundle.js - -
+2022-02-21 17:48:46.785 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-02-21 17:48:46.785 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-02-21 17:48:46.785 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-02-21 17:48:46.789 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui.css - - - 200 143632 text/css 64.1482ms
+2022-02-21 17:48:46.810 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 83.8837ms
+2022-02-21 17:48:46.816 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:64758/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 89.7002ms
+2022-02-21 17:48:47.072 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:64758/swagger/V1/swagger.json - -
+2022-02-21 17:48:47.196 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:64758/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 124.4165ms

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopBridge.API", "ShopBridge.Api\ShopBridge.API.csproj", "{98CA59FA-1DF3-4EC0-A81C-E3F086814B31}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9FF5BEF7-4C09-4C68-9E13-92B11EE0AAC4} = {9FF5BEF7-4C09-4C68-9E13-92B11EE0AAC4}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopBridge.Data", "ShopBridge.Data\ShopBridge.Data.csproj", "{9FF5BEF7-4C09-4C68-9E13-92B11EE0AAC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopBridge.Test", "ShopBridge.Test\ShopBridge.Test.csproj", "{8B7439AB-D6B1-4A60-A825-3B44FBC0D46A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98CA59FA-1DF3-4EC0-A81C-E3F086814B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98CA59FA-1DF3-4EC0-A81C-E3F086814B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98CA59FA-1DF3-4EC0-A81C-E3F086814B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98CA59FA-1DF3-4EC0-A81C-E3F086814B31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FF5BEF7-4C09-4C68-9E13-92B11EE0AAC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF5BEF7-4C09-4C68-9E13-92B11EE0AAC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF5BEF7-4C09-4C68-9E13-92B11EE0AAC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF5BEF7-4C09-4C68-9E13-92B11EE0AAC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B7439AB-D6B1-4A60-A825-3B44FBC0D46A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B7439AB-D6B1-4A60-A825-3B44FBC0D46A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B7439AB-D6B1-4A60-A825-3B44FBC0D46A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B7439AB-D6B1-4A60-A825-3B44FBC0D46A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23FE26E8-77EE-47C4-B5F1-AED8B5C889AE}
+	EndGlobalSection
+EndGlobal
